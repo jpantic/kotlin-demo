@@ -34,7 +34,7 @@
     ],
     "beerAphorismPrimary": [
       "the lifeblood",
-      "the greatest achievement",
+      "the pillar",
       "the great love",
       "the never ending gift",
       "the elixir",
@@ -57,34 +57,73 @@
       "competence management",
       "enterprise software solutions",
       "high consequence industries",
-      "doctors-in-training at leading hospitals worldwide"
+      "doctors-in-training at leading hospitals worldwide",
+      "successful organizations"
     ],
     "beerDrinkingSubject": [
-      "a developer",
-      "a human being",
-      "a man",
-      "a woman",
-      "a project manager",
-      "a test engineer",
-      "a support person",
-      "an operations person",
+      "{employeeCharacteristic} developer",
+      "{employeeCharacteristic} human being",
+      "{employeeCharacteristic} man",
+      "{employeeCharacteristic} woman",
+      "{employeeCharacteristic} project manager",
+      "{employeeCharacteristic} test engineer",
+      "{employeeCharacteristic} support person",
+      "{employeeCharacteristic} operations person",
+      "{employeeCharacteristic} manager",
+      "{employeeCharacteristic} team member",
       "an organism",
       "a citizen",
       "a mammal",
-      "a manager",
-      "a team member",
       "Steve Ballmer"
     ],
+    "employeeCharacteristic": [
+      "a thirsty",
+      "a restless",
+      "a hard-working",
+      "a tired",
+      "an aggressive"
+    ],
     "subjectWithoutBeerOutcome": [
-      "withers slowly",
+      "withers {witheringCondition}",
       "is bound to fail",
-      "is like a fish on land",
+      "is like a {subjectWithoutBeerComparisonSubject}",
       "gathers bad karma like a sponge",
       "has poor chi",
-      "lacks something",
-      "is a bit dull",
+      "lacks {lackableThing}",
+      "is a bit {negativeCharacteristic}",
       "is likely to get unhinged",
-      "is a dreadful thing to behold"
+      "is a dreadful thing to behold",
+      "would never win {winnableThing}"
+    ],
+    "subjectWithoutBeerComparisonSubject": [
+      "fish out of water",
+      "fish on land",
+      "fish in the desert",
+      "lost astronaut"
+    ],
+    "witheringCondition": [
+      "slowly",
+      "hopelessly",
+      "unavoidably",
+      "like a picked flower"
+    ],
+    "lackableThing": [
+      "something",
+      "zest",
+      "initiative",
+      "appeal",
+      "energy",
+      "insight"
+    ],
+    "negativeCharacteristic": [
+      "dull",
+      "boring",
+      "meaningless",
+      "sad"
+    ],
+    "winnableThing": [
+      "a foosball match",
+      "a bet"
     ]
   }
 }
