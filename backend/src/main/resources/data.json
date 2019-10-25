@@ -61,16 +61,16 @@
       "successful organizations"
     ],
     "beerDrinkingSubject": [
-      "{employeeCharacteristic} developer",
-      "{employeeCharacteristic} human being",
-      "{employeeCharacteristic} man",
-      "{employeeCharacteristic} woman",
-      "{employeeCharacteristic} project manager",
-      "{employeeCharacteristic} test engineer",
-      "{employeeCharacteristic} support person",
-      "{employeeCharacteristic} operations person",
-      "{employeeCharacteristic} manager",
-      "{employeeCharacteristic} team member",
+      "<employeeCharacteristic> developer",
+      "<employeeCharacteristic> human being",
+      "<employeeCharacteristic> man",
+      "<employeeCharacteristic> woman",
+      "<employeeCharacteristic> project manager",
+      "<employeeCharacteristic> test engineer",
+      "<employeeCharacteristic> support person",
+      "<employeeCharacteristic> operations person",
+      "<employeeCharacteristic> manager",
+      "<employeeCharacteristic> team member",
       "an organism",
       "a citizen",
       "a mammal",
@@ -84,16 +84,16 @@
       "an aggressive"
     ],
     "subjectWithoutBeerOutcome": [
-      "withers {witheringCondition}",
+      "withers <witheringCondition>",
       "is bound to fail",
-      "is like a {subjectWithoutBeerComparisonSubject}",
+      "is like a <subjectWithoutBeerComparisonSubject>",
       "gathers bad karma like a sponge",
       "has poor chi",
-      "lacks {lackableThing}",
-      "is a bit {negativeCharacteristic}",
+      "lacks <lackableThing>",
+      "is a bit <negativeCharacteristic>",
       "is likely to get unhinged",
       "is a dreadful thing to behold",
-      "would never win {winnableThing}"
+      "would never win <winnableThing>"
     ],
     "subjectWithoutBeerComparisonSubject": [
       "fish out of water",
