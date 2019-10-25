@@ -1,9 +1,11 @@
 package no.dossier.app.kotlindemo.frontend.components
 
+import kotlinx.html.js.onClickFunction
 import no.dossier.app.kotlindemo.api.RestEndpoint
 import no.dossier.app.kotlindemo.frontend.contexts.appContext
 import react.*
-import react.dom.h1
+import react.dom.button
+import react.dom.span
 import kotlin.browser.window
 
 interface AppState : RState {
@@ -17,10 +19,10 @@ interface AppState : RState {
 class App : RComponent<RProps, AppState>() {
 
     init {
-        state.quote = "Test!!!!"
+        state.quote = ""
     }
 
-    override fun componentDidMount() {
+    private fun refresh () {
         window.fetch(RestEndpoint.GetQuote.value).then {
             it.text()
         }.then {
@@ -30,10 +32,19 @@ class App : RComponent<RProps, AppState>() {
         }
     }
 
+    override fun componentDidMount() {
+        this.refresh()
+    }
+
     override fun RBuilder.render() {
         appContext.Provider(state) {
-            h1 {
+            span {
                 +state.quote
+
+            }
+            button {
+                attrs.onClickFunction = { refresh() }
+                +"Hit me again"
             }
         }
     }
