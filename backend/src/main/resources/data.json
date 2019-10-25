@@ -1,0 +1,90 @@
+{
+  "entryPoint": "sentenceStructures",
+  "wordClasses": {
+    "sentenceStructures": [
+      "when <undesirableBeerSituation>, <undesirableGenericOutcome>",
+      "beer is <beerAphorismPrimary> of <beerAphorismSecondary>",
+      "<beerDrinkingSubject> without beer <subjectWithoutBeerOutcome>"
+    ],
+    "undesirableBeerSituation": [
+      "the beer runs out",
+      "the beer turns bad",
+      "there is no beer",
+      "beer is denied",
+      "the beer flow is constricted",
+      "the pub closes too early",
+      "the cup is not filled",
+      "the fridge holds no beer"
+    ],
+    "undesirableGenericOutcome": [
+      "society crumbles",
+      "empires fall",
+      "the mind unravels",
+      "the fabric of reality falls apart",
+      "madness descends",
+      "war begins",
+      "the soul cries out in horror",
+      "profile takes forever to load",
+      "front end crashes",
+      "you have to rebuild profile",
+      "you get into meaningless technical arguments",
+      "you get migration conflicts",
+      "the Kolibri loading spinner shits on your keyboard and claws at your face",
+      "the SP turns out to be wrong"
+    ],
+    "beerAphorismPrimary": [
+      "the lifeblood",
+      "the greatest achievement",
+      "the great love",
+      "the never ending gift",
+      "the elixir",
+      "the achievement contribution",
+      "the holy grail",
+      "the sweet nectar",
+      "the fountain",
+      "the foundation",
+      "the catalyst for synergies"
+    ],
+    "beerAphorismSecondary": [
+      "man",
+      "humanity",
+      "the peoples of the world",
+      "all cultures",
+      "the civilized world",
+      "Dossier Solutions",
+      "the IT industry",
+      "life",
+      "competence management",
+      "enterprise software solutions",
+      "high consequence industries",
+      "doctors-in-training at leading hospitals worldwide"
+    ],
+    "beerDrinkingSubject": [
+      "a developer",
+      "a human being",
+      "a man",
+      "a woman",
+      "a project manager",
+      "a test engineer",
+      "a support person",
+      "an operations person",
+      "an organism",
+      "a citizen",
+      "a mammal",
+      "a manager",
+      "a team member",
+      "Steve Ballmer"
+    ],
+    "subjectWithoutBeerOutcome": [
+      "withers slowly",
+      "is bound to fail",
+      "is like a fish on land",
+      "gathers bad karma like a sponge",
+      "has poor chi",
+      "lacks something",
+      "is a bit dull",
+      "is likely to get unhinged",
+      "is a dreadful thing to behold"
+    ]
+  }
+}
