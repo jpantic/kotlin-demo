@@ -44,6 +44,9 @@ class App : RComponent<RProps, AppState>() {
                 h1 {
                     +state.quote
                 }
+                div(classes="brand") {
+                    +"Beerbusters & Partners BeerAI - advanced human beer language generation platform"
+                }
                 button {
                     attrs.onClickFunction = { refresh() }
                     +"Hit me again"
