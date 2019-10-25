@@ -4,7 +4,7 @@
     "sentenceStructures": [
       "when <undesirableBeerSituation>, <undesirableGenericOutcome>",
       "beer is <beerAphorismPrimary> of <beerAphorismSecondary>",
-      "a <beerDrinkingSubject> without beer <subjectWithoutBeerOutcome>"
+      "<beerDrinkingSubject> without beer <subjectWithoutBeerOutcome>"
     ],
     "undesirableBeerSituation": [
       "the beer runs out",
@@ -47,16 +47,26 @@
       "high consequence industries"
     ],
     "beerDrinkingSubject": [
-      "",
-      "",
-      "",
-      ""
+      "a developer",
+      "a human being",
+      "a man",
+      "a woman",
+      "a project manager",
+      "a test engineer",
+      "a support person",
+      "an operations person",
+      "an organism",
+      "a citizen",
+      "a mammal",
+      "a manager",
+      "a team member"
     ],
     "subjectWithoutBeerOutcome": [
-      "",
-      "",
-      "",
-      ""
+      "withers slowly",
+      "is bound to fail",
+      "is like a fish on land",
+      "gathers bad karma like a sponge",
+      "has poor chi"
     ]
   }
 }
