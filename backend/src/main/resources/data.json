@@ -29,7 +29,7 @@
       "you have to rebuild profile",
       "you get into meaningless technical arguments",
       "you get migration conflicts",
-      "the kolibri loading spinner shits on your keyboard and claws at your face",
+      "the Kolibri loading spinner shits on your keyboard and claws at your face",
       "the SP turns out to be wrong"
     ],
     "beerAphorismPrimary": [
@@ -49,7 +49,7 @@
       "man",
       "humanity",
       "the peoples of the world",
-      "all culture",
+      "all cultures",
       "the civilized world",
       "Dossier Solutions",
       "the IT industry",
@@ -57,7 +57,7 @@
       "competence management",
       "enterprise software solutions",
       "high consequence industries",
-      "doctors-in-training at leading hospitals"
+      "doctors-in-training at leading hospitals worldwide"
     ],
     "beerDrinkingSubject": [
       "a developer",
@@ -72,7 +72,8 @@
       "a citizen",
       "a mammal",
       "a manager",
-      "a team member"
+      "a team member",
+      "Steve Ballmer"
     ],
     "subjectWithoutBeerOutcome": [
       "withers slowly",
@@ -81,7 +82,9 @@
       "gathers bad karma like a sponge",
       "has poor chi",
       "lacks something",
-      "is a bit dull"
+      "is a bit dull",
+      "is likely to get unhinged",
+      "is a dreadful thing to behold"
     ]
   }
 }
