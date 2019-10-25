@@ -13,7 +13,8 @@
       "beer is denied",
       "the beer flow is constricted",
       "the pub closes too early",
-      "the cup is not filled"
+      "the cup is not filled",
+      "the fridge holds no beer"
     ],
     "undesirableGenericOutcome": [
       "society crumbles",
@@ -22,7 +23,14 @@
       "the fabric of reality falls apart",
       "madness descends",
       "war begins",
-      "the soul cries out in horror"
+      "the soul cries out in horror",
+      "profile takes forever to load",
+      "front end crashes",
+      "you have to rebuild profile",
+      "you get into meaningless technical arguments",
+      "you get migration conflicts",
+      "the kolibri loading spinner shits on your keyboard and claws at your face",
+      "the SP turns out to be wrong"
     ],
     "beerAphorismPrimary": [
       "the lifeblood",
@@ -31,7 +39,11 @@
       "the never ending gift",
       "the elixir",
       "the achievement contribution",
-      "the holy grail"
+      "the holy grail",
+      "the sweet nectar",
+      "the fountain",
+      "the foundation",
+      "the catalyst for synergies"
     ],
     "beerAphorismSecondary": [
       "man",
@@ -44,7 +56,8 @@
       "life",
       "competence management",
       "enterprise software solutions",
-      "high consequence industries"
+      "high consequence industries",
+      "doctors-in-training at leading hospitals"
     ],
     "beerDrinkingSubject": [
       "a developer",
@@ -66,7 +79,9 @@
       "is bound to fail",
       "is like a fish on land",
       "gathers bad karma like a sponge",
-      "has poor chi"
+      "has poor chi",
+      "lacks something",
+      "is a bit dull"
     ]
   }
 }
