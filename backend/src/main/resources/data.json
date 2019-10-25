@@ -7,16 +7,22 @@
       "a <beerDrinkingSubject> without beer <subjectWithoutBeerOutcome>"
     ],
     "undesirableBeerSituation": [
-      "",
-      "",
-      "",
-      ""
+      "the beer runs out",
+      "the beer turns bad",
+      "there is no beer",
+      "beer is denied",
+      "the beer flow is constricted",
+      "the pub closes too early",
+      "the cup is not filled"
     ],
     "undesirableGenericOutcome": [
-      "",
-      "",
-      "",
-      ""
+      "society crumbles",
+      "empires fall",
+      "the mind unravels",
+      "the fabric of reality falls apart",
+      "madness descends",
+      "war begins",
+      "the soul cries out in horror"
     ],
     "beerAphorismPrimary": [
       "the lifeblood",
