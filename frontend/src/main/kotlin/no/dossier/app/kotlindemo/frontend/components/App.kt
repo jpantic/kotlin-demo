@@ -4,10 +4,9 @@ import kotlinx.html.js.onClickFunction
 import no.dossier.app.kotlindemo.api.RestEndpoint
 import no.dossier.app.kotlindemo.frontend.contexts.appContext
 import react.*
-import react.dom.h1
-import react.dom.div
 import react.dom.button
-import react.dom.span
+import react.dom.div
+import react.dom.h1
 import kotlin.browser.window
 
 interface AppState : RState {
@@ -40,6 +39,11 @@ class App : RComponent<RProps, AppState>() {
 
     override fun RBuilder.render() {
         appContext.Provider(state) {
+            div(classes = "bubble x1"){}
+            div(classes = "bubble x2"){}
+            div(classes = "bubble x3"){}
+            div(classes = "bubble x4"){}
+            div(classes = "bubble x5"){}
             div(classes="beer-quote") {
                 h1 {
                     +state.quote

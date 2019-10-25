@@ -11,6 +11,8 @@
             margin: 0;
             font-family: 'Yrsa', serif;
             font-weight: 600;
+            background: linear-gradient(to right, #c05600 0%, #dc7000 21%, #e87c00 51%, #e87c00 81%, #dc7000 100%);
+            overflow: hidden;
         }
         .brand {
             margin: 1em;
@@ -33,6 +35,65 @@
             padding: 1em;
             margin: 1em;
             border-radius: 4px;
+        }
+        .bubble {
+            width: 60px;
+            height: 60px;
+            background: #ffb200;
+            border-radius: 50%;
+            position: absolute;
+            filter: blur(10px);
+        }
+        .x1 {
+            transform: scale(1.0);
+            opacity: 0.5;
+            animation: moveclouds 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+            top: 50px;
+            left: 10%;
+        }
+        .x2 {
+            transform: scale(0.5);
+            opacity: 0.4;
+            animation: moveclouds 10s linear infinite, sideWays 10s ease-in-out infinite alternate;
+            top: -25px;
+            left: 30%;
+        }
+        .x3 {
+            transform: scale(0.9);
+            opacity: 0.6;
+            animation: moveclouds 14s linear infinite, sideWays 5s ease-in-out infinite alternate;
+            top: 10px;
+            left: 50%;
+        }
+        .x4 {
+            transform: scale(0.8);
+            opacity: 0.5;
+            animation: moveclouds 12s linear infinite, sideWays 7s ease-in-out infinite alternate;
+            top: -30px;
+            left: 70%;
+        }
+        .x5 {
+            transform: scale(0.7);
+            opacity: 0.6;
+            animation: moveclouds 17s linear infinite, sideWays 3s ease-in-out infinite alternate;
+            top: 0;
+            left: 90%;
+        }
+        @-webkit-keyframes moveclouds {
+            0% {
+                top: 100vh;
+            }
+            100% {
+                top: -100px;
+            }
+        }
+        @-webkit-keyframes sideWays {
+            0% {
+                margin-left: 0;
+            }
+            100% {
+                margin-left: 50px;
+            }
         }
     </style>
 </head>
