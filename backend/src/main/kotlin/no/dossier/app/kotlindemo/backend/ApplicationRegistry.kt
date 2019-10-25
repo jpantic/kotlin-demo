@@ -4,6 +4,6 @@ import java.util.*
 
 class ApplicationRegistry {
     companion object {
-        val connections: MutableList<String> = Collections.synchronizedList(mutableListOf())
+        val quotes: MutableList<String> = Collections.synchronizedList(mutableListOf())
     }
 }

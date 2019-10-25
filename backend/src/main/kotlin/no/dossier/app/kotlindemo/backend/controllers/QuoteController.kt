@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-class ConnectionController {
+class QuoteController {
 
-    @GetMapping(RestEndpoint.Urls.GET_ALL_CONNECTIONS)
-    fun getAllConnections(): List<String> {
-        return ApplicationRegistry.connections
+    @GetMapping(RestEndpoint.Urls.GET_QUOTE)
+    fun getQuote(): String {
+        return "abc 123"
     }
 
 }
