@@ -9,4 +9,5 @@ object Versions {
 
     const val core_js = "3.1.1"
     const val react = "^16.6.0"
+    const val particlesjs = "2.7.0"
 }

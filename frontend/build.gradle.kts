@@ -31,6 +31,7 @@ kotlin {
                 implementation(npm("core-js", Versions.core_js))
                 implementation(npm("react", Versions.react))
                 implementation(npm("react-dom", Versions.react))
+                implementation(npm("react-particles-js", Versions.particlesjs))
                 compileOnly(Dependencies.kotlin_react)
                 compileOnly(Dependencies.kotlin_react_dom)
                 implementation(Dependencies.kotlinx_serialization_runtime_js)
