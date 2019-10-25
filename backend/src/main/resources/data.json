@@ -1,10 +1,11 @@
 {
-  "sentenceStructures": {
-    "a": "when <undesirableBeerSituation>, <undesirableGenericOutcome>",
-    "b": "beer is <beerAphorismPrimary> of <beerAphorismSecondary>",
-    "c": "a <beerDrinkingSubject> without beer <subjectWithoutBeerOutcome>"
-  },
+  "entryPoint": "sentenceStructures",
   "wordClasses": {
+    "sentenceStructures": [
+      "when <undesirableBeerSituation>, <undesirableGenericOutcome>",
+      "beer is <beerAphorismPrimary> of <beerAphorismSecondary>",
+      "a <beerDrinkingSubject> without beer <subjectWithoutBeerOutcome>"
+    ],
     "undesirableBeerSituation": [
       "",
       "",
